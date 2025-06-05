@@ -4,7 +4,7 @@
 TELEGRAM_BOT_TOKEN=""
 CHAT_ID=""
 THRESHOLD=1000          # Block lag alert threshold
-BALANCE_THRESHOLD=100    # RBNT voting balance alert threshold
+BALANCE_THRESHOLD=500    # RBNT voting balance alert threshold
 VOTING_ADDRESS=""
 REWARDS_ADDRESS=""
 NODE_ENDPOINT="https://localhost:8545"
@@ -160,14 +160,12 @@ STATUS="📊 *Redbelly Node Status Update*
 ⚙️ *CPU Load Avg (1m):*  $CPU_LOAD_AVG
 
 💸 *Voting Balance:*     $VOTING_BALANCE RBNT  
-🔏 *Signing Balance:*    $SIGNING_BALANCE RBNT
+🔏 *Rewards Balance:*    $REWARDS_ADDRESS RBNT
 
 🔐 *SSL Cert Validity:*  $DAYS_LEFT days left  
 🔄 *Sync Status:*        $SYNC_MESSAGE  
 👑 *Governor Status:*    $GOVERNOR_STATUS  
-🖥️ *Node Process:*       $NODE_PROC_STATUS
-
-👤 *Author:* moontrader"
+🖥️ *Node Process:*       $NODE_PROC_STATUS"
 
 
 # === SEND TELEGRAM MESSAGE ===
